@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>З 8 Березня!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="styles/globals.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1 class="title">
+                <span class="floating-icons">✨</span>
+                З 8 Березня!
+                <span class="floating-icons">✨</span>
+            </h1>
+            
+            <div class="message">
+                <p>Ви майже дійшли до кінця!!</p>
+            </div>
+
+            <div class="decorations">
+                <div class="flower-row">
+                    <span class="flower">🌸</span>
+                    <span class="flower">💖</span>
+                    <span class="flower">🌺</span>
+                </div>
+                <div class="flower-row">
+                    <span class="flower">💐</span>
+                    <span class="flower">🌼</span>
+                    <span class="flower">🌷</span>
+                </div>
+            </div>
+
+            <div class="sparkles">
+                <span class="sparkle"></span>
+                <span class="sparkle"></span>
+                <span class="sparkle"></span>
+                <span class="sparkle"></span>
+            </div>
+
+            <div class="audio-container">
+                <div class="audio-wrapper">
+                    <audio id="audioPlayer" preload="auto" controls>
+                        <source src="almost-end.ogg" type="audio/mpeg">
+                        Ваш браузер не підтримує аудіо елемент.
+                    </audio>
+                </div>
+                <button id="playButton" class="button">
+                    <span class="button-icon">🔄</span>
+                    <span class="button-text">Повторити аудіо</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
